@@ -6,6 +6,203 @@
     margin:0;
     padding:0;
 }
+.mainContainer{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.header{
+    position: relative;
+    height: 100px;
+    width: 100%;
+    background-color: brown;
+}
+.cakeimg{
+    position: relative;
+    background-color: black;
+    border-radius: 50%;
+    border: 5px solid brown;
+    width: 180px;
+    left: 590px;
+    top: 10px;
+    z-index: 1;
+}
+.cakeimg h2
+{
+    position: relative;
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+    top: -15px;
+    font-family: 'Satisfy', cursive;
+}
+.midSection{
+    position: relative;
+    background-color: darkviolet;
+    width: auto;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.prices img
+{
+    position: relative;
+    top:50px;
+    left:100px;
+}
+.price{
+    position: relative;
+    color: white;
+    top: -200px;
+    left: 200px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-family: 'Architects Daughter', cursive;
+}
+ul{
+    position: relative;
+    top: -180px;
+    left:150px;
+    list-style: none;
+}
+li{
+    padding: 5px;
+    font-size: 1rem;
+    color: white;
+    font-family: 'Architects Daughter', cursive;
+}
+#candle{
+    width: 70px;
+    height: 50px;
+    position: absolute;
+    left: 47.5%;
+    top: 22%;
+    visibility: hidden;
+}
+.cakeBuilder{
+  position: relative;
+  top: 150px;
+}
+#layer1{
 
-/* Fill your code*/
+    border-radius: 10px;
+    width: 200px;
+    height: 5px;
+    visibility: hidden;
+    margin: auto;
+    padding: 20px;
+}
+
+#layer2{
+
+    border-radius: 10px;
+    width: 170px;
+    height: 5px;
+    visibility: hidden;
+    margin: auto;
+    padding: 20px;
+}
+
+#layer3{
+    border-radius: 10px;
+    width: 140px;
+    height: 5px;
+    visibility: hidden;
+    margin: auto;
+    padding: 20px;
+}
+
+#layer4{
+    width: 110px;
+    border-radius: 10px;
+    height: 5px;
+    visibility: hidden;
+    margin: auto;
+    padding: 20px;
+}
+#layer5{
+    
+    width: 80px;
+    height: 5px;
+    visibility: hidden;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.billboard img{
+    position: relative;
+    top:50px;
+    right: 100px;
+    font-size: 0.8rem;
+}
+.billHeading{
+    position: relative;
+    top: -200px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    font-family: 'Architects Daughter', cursive;
+}
+.bill{
+    position: relative;
+    top: -190px;
+    right: 50px;
+    color: white; 
+    margin-bottom: 8px; 
+    font-family: 'Architects Daughter', cursive; 
+}
+/* #chocBill,#strawBill,#butterBill,#vannilaBill,#redBill
+{
+    visibility: hidden;
+} */
+.footerContainer{
+    height: 100px;
+    width: 100%;
+    background-color: brown;
+    justify-content: space-between;
+}
+
+.buttonContainer button{
+    margin-left: 50px;
+    width: 150px;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    background-color:darkviolet;
+    border:1px solid brown;
+    color: white;
+    padding: 5px;
+}
+
+.footer{
+    position: relative;
+    height: 100px;
+    width: auto;
+    background-color: brown;
+}
+
+.footer input[type = button]{
+    position: relative;
+    top: 30px;
+     background-color:blueviolet;
+     color: white;
+    width: auto;
+    height: 35px;
+    font-size: 1.2em;
+    padding: 5px;
+    border-radius: 10%;
+    margin-left: 100px;
+    font-family: 'Acme', sans-serif;;
+}
+input[type = button]:hover
+{
+    cursor: pointer;
+}
+#buybtn{
+    background-color: #39FF14;
+    color: black;
+}
+
 

@@ -4,10 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>CAKE WORLD</title>
 </head>
 <body>
-    
+    <div class="mainContainer">
+        <div class="header">
+            <div class="cakeimg">
+                <img src="./assets/cake.png" alt="" srcset="">
+                <h2>Cake World</h2>
+            </div>
+        </div>
+        <div class="midSection">
+            <div class="prices">
+                <img src="./assets/list_template.png" alt="">
+                <h4 class="price">Prices</h4>
+                <ul>
+                    <li>Chocolate &nbsp;&nbsp;&nbsp;...........&nbsp;&nbsp;&nbsp; 300</li>
+                    <li>Straberry &nbsp;&nbsp;&nbsp;...........&nbsp;&nbsp;&nbsp;100</li>
+                    <li>Buttorscotch &nbsp;&nbsp;&nbsp;.........&nbsp;&nbsp;&nbsp;200</li>
+                    <li>Vannila &nbsp;&nbsp;&nbsp;..............&nbsp;&nbsp;&nbsp;250</li>
+                    <li>redvelvet &nbsp;&nbsp;&nbsp;.............&nbsp;&nbsp;&nbsp;350</li>
+                </ul>
+            </div>
+            <img src="./assets/candle.png" alt="" id="candle">
+            <div class="cakeBuilder">
+                <div id="layer5"></div>
+                <div id="layer4"></div>
+                <div id="layer3"></div>
+                <div id="layer2"></div>
+                <div id="layer1"></div>
+            </div>
+
+            <div class="billboard">
+                <img src="./assets/list_template.png">
+                <h4 class="billHeading">Bill</h4>
+                <div class="bill" id="chocBill"></div>
+                <div class="bill" id="strawBill"></div>
+                <div class="bill" id="butterBill"></div>
+                <div class="bill" id="vannilaBill"></div>
+                <div class="bill" id="redBill"></div>
+                <div class="bill" id="total"></div>
+            </div>
+        </div>
+        <div class="footer">
+            <input type="button" id="chocBtn" value="Chocolate" onclick="addChocolate()">
+            <input type="button" id="strawBtn" value="Strawberry" onclick="addStrawberry()">
+            <input type="button" id="butterBtn" value="Butterscotch" onclick="addButterscotch()">
+            <input type="button" id="vanBtn" value="Vannila" onclick="addVannila()">
+            <input type="button" id="redBtn" value="Redvelvet" onclick="addRedvelvet()">
+            <input type="button" id="buybtn" value="Buy" onclick="buy()">
+        </div>
+    </div>
+
 </body>
 <script src="/script.js"></script>
 </html>
